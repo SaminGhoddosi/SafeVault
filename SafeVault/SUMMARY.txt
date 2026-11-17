@@ -1,0 +1,11 @@
+SafeVault - Brief Security Summary
+
+Vulnerabilities identified: SQL injection from concatenated queries, XSS from unsafe HTML output, weak password handling, and missing role checks.
+
+Fixes applied: Parameterized SQLite queries, input validation, HTML encoding, bcrypt password hashing, secure login cookies, and role-based admin authorization.
+
+Testing: NUnit tests cover SQL injection payloads, XSS payloads, invalid passwords, and unauthorized access.
+
+Copilot assistance: The solution follows the Copilot-assisted workflow described in the activity: generate secure patterns, review them, and write attack-focused tests. Copilot was not directly run in this environment.
+
+Note: Tests could not be executed here because .NET SDK is not installed.

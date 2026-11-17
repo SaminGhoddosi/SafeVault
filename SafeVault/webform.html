@@ -1,0 +1,6 @@
+<!-- Reference form. Use GET /form for the working form with CSRF token. -->
+<form action="/submit" method="post">
+<label for="username">Username:</label><input id="username" name="username" maxlength="100" required pattern="[A-Za-z0-9_.-]{3,100}">
+<label for="email">Email:</label><input type="email" id="email" name="email" maxlength="100" required>
+<button type="submit">Submit</button>
+</form>
